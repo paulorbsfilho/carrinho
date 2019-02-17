@@ -48,7 +48,4 @@ export class CartService {
     this.cart.push(product);
   }
 
-  delProduct() {
-    this.cart = [];
-  }
 }

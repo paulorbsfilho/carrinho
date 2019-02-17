@@ -29,10 +29,6 @@ export class HomePage implements OnInit {
     this.cartService.addProduct(product);
   }
 
-  delToCart() {
-    this.cartService.delProduct();
-  }
-
   openCart() {
     this.router.navigate(['cart']);
   }
